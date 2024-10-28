@@ -24,6 +24,8 @@ Contact Information:
 | Natural Land Sink| `Land_carbon_uptake_DGVMs_gridded_GCB2023_2013-2022_mean.nc` | [Global Carbon Project](https://globalcarbonbudgetdata.org/latest-data.html) |
 | Fossil and Industry CO2 emissions | `Fossil_carbon_emissions_gridded_GCB2023_2013-2022_mean.nc`, `National_Fossil_Carbon_Emissions_2023v1.0.xlsx`| [Global Carbon Project](https://globalcarbonbudgetdata.org/latest-data.html) |
 |Country boundaries vector| ``| |
+| NetCDF file with the country mask at 0.1° resolution | `Country-mask_UNFCCC_layers-all-countries_grid-3600x1800.nc`   |[LRZ](https://syncandshare.lrz.de/getlink/fiSEJR4u5put8Ur7v14BCL/2024_10_country_mask)                                           |
+| Country Codes  | `Country-codes_UNFCCC_199countries.xlsx`   |[LRZ](https://syncandshare.lrz.de/getlink/fiSEJR4u5put8Ur7v14BCL/2024_10_country_mask)                                           |
 
 
 ## Replication instructions

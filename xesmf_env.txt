@@ -1,0 +1,11 @@
+$ conda create -n xesmf_env
+$ conda activate xesmf_env
+
+$ conda install -c conda-forge xesmf
+
+$ conda install -c conda-forge dask netCDF4
+
+$ conda install conda-forge::ipykernel
+
+$ conda install -c conda-forge matplotlib
+$ conda install conda-forge::openpyxl
