@@ -9,3 +9,6 @@ $ conda install conda-forge::ipykernel
 
 $ conda install -c conda-forge matplotlib
 $ conda install conda-forge::openpyxl
+
+$ conda install conda-forge::polars
+conda install conda-forge::fastexcel
