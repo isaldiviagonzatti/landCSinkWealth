@@ -160,3 +160,14 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+
+# Large files
+
+data/interim/CSCC_all_gtc.csv
+data/interim/CSCC_all.csv
+data/interim/CSCC_all_gtc_NA.csv
+data/interim/CSCC_all_NA.csv
+data/interim/CSCC_all_gtc_minus.csv
+
+data/raw/raw_scc_SSP2_rcp60_constant_bootstrap_climensemble_hmqrs.csv
+data/raw/raw_scc_SSP2_rcp60_constant_bootstrap_climensemble_hmqrs.Rdata
