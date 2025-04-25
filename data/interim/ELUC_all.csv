@@ -1,4 +1,4 @@
-Country,iso,model,year,ELUC
+country,iso,model,year,ELUC
 Afghanistan,AFG,BLUE,2013,5.1e-06
 Albania,ALB,BLUE,2013,-0.00013507
 Algeria,DZA,BLUE,2013,-0.0008612800000000001
