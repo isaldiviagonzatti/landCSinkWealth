@@ -169,6 +169,8 @@ data/interim/CSCC_all_gtc_NA.csv
 data/interim/CSCC_all_NA.csv
 data/interim/CSCC_all_gtc_minus.csv
 data/interim/CSCC_sovereign.csv
+/data/interim/
+
 
 data/raw/raw_scc_SSP2_rcp60_constant_bootstrap_climensemble_hmqrs.csv
 data/raw/raw_scc_SSP2_rcp60_constant_bootstrap_climensemble_hmqrs.Rdata
