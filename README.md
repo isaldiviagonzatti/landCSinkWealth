@@ -1,31 +1,52 @@
 # The Land Carbon Sink
 
-This repository contains the data and code for the paper "".
+This repository contains the data and code for the paper:  
+**_“Contributions of country-level net land carbon sinks to inclusive wealth”_** 
 <!-- The paper is published in [journal] and is available [here](link). -->
 
 ## Authors
 
--
+- Lotta Siebert\*  
+- Ignacio Saldivia Gonzatti  
+- Anthony Harding  
+- Clemens Schwingshackl  
+- Michael O'Sullivan  
+- Julia Pongratz  
+- Wilfried Rickels
 
-Corresponding author:
+<details>
+<summary>Affiliations (click to expand)</summary>
 
-Contact Information:
+- **\*** Corresponding author: [lotta.siebert@ifw-kiel.de](mailto:lotta.siebert@ifw-kiel.de)  
+- [1] Global Commons and Climate Policy, Kiel Institute for the World Economy, Germany  
+- [2] Earth Systems and Global Change Group, Wageningen University & Research, Netherlands  
+- [3] School of Public Policy, Georgia Institute of Technology, USA  
+- [4] Department of Geography, Ludwig Maximilian University Munich, Germany  
+- [5] Faculty of Environment, Science and Economy, University of Exeter, UK  
+- [6] Max Planck Institute for Meteorology, Hamburg, Germany  
+- [7] Department of Economics, Kiel University, Germany  
+</details>
 
 ## Requirements
 
-<!-- The code is written in Python 3.11.2 The required packages are listed in `requirements.txt`. -->
+The code was developed using **Python 3.11.2**.  
+To install dependencies, run:
+
+
 
 ## Data
 
 | Dataset | File Name | Source |
 |---------|-----------|--------|
-| Country Social Cost of Carbon (CSCC) | `statscc_SSP2_rcp60_constant_estimates_climensemble_hmqrs_lineartrend.csv`   | Obtained from Tony Harding                                             |
-| Net Land-use Flux (Global Carbon Project) | `Landuse_carbon_flux_gridded_GCB2023_2013-2022_mean.nc`,  `National_LandUseChange_Carbon_Emissions_2023v1.0.xlsx` | [Global Carbon Project](https://globalcarbonbudgetdata.org/latest-data.html) | 
-| Natural Land Sink| `Land_carbon_uptake_DGVMs_gridded_GCB2023_2013-2022_mean.nc` | [Global Carbon Project](https://globalcarbonbudgetdata.org/latest-data.html) |
-| Fossil and Industry CO2 emissions | `Fossil_carbon_emissions_gridded_GCB2023_2013-2022_mean.nc`, `National_Fossil_Carbon_Emissions_2023v1.0.xlsx`| [Global Carbon Project](https://globalcarbonbudgetdata.org/latest-data.html) |
-|Country boundaries vector| ``| |
-| NetCDF file with the country mask at 0.1° resolution | `Country-mask_UNFCCC_layers-all-countries_grid-3600x1800.nc`   |[LRZ](https://syncandshare.lrz.de/getlink/fiSEJR4u5put8Ur7v14BCL/2024_10_country_mask)                                           |
-| Country Codes  | `Country-codes_UNFCCC_199countries.xlsx`   |[LRZ](https://syncandshare.lrz.de/getlink/fiSEJR4u5put8Ur7v14BCL/2024_10_country_mask)                                           |
+| Country Social Cost of Carbon (CSCC) | `raw_scc_SSP2_rcp60_constant_bootstrap_climensemble_hmqrs.csv`   | Obtained from Anthony Harding|
+
+| Net Land-use Change Flux (Global Carbon Project) |  `National_LandUseChange_Carbon_Emissions_2024v1.0.xlsx` | [Global Carbon Project](https://globalcarbonbudgetdata.org/latest-data.html) | 
+
+| Natural Land Sink| `GCB2023_SLAND_country_mask.nc` | Obtained from Michael O'Sullivan  |
+
+| Fossil and Industry CO2 emissions | `National_Fossil_Carbon_Emissions_2024v1.0.xlsx`| [Global Carbon Project](https://globalcarbonbudgetdata.org/latest-data.html) |
+
+| GDP Deflator Values | `Worldbank_Deflator.csv` | [World Bank WDI](https://databank.worldbank.org/source/world-development-indicators/Series/NY.GDP.DEFL.ZS)
 
 
 ## Replication instructions
