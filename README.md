@@ -27,26 +27,56 @@ This repository contains the data and code for the paper:
 - ⁷ Department of Economics, Kiel University, Germany  
 </details>
 
+---
+
+## Abstract
+
+---
+
 ## Requirements
 
-The code was developed using **Python 3.11.2**.  
-To install dependencies, run:
+This project uses **Python 3.12.7** and requires the following Python packages:
 
 
+```
+numpy
+pandas
+xarray
+matplotlib
+geopandas
+scipy
+
+```
+
+---
 
 ## Data
 
+All data used in this analysis are stored in the `data/raw/` directory.
+
 | Dataset | File Name | Source |
 |---------|-----------|--------|
-| Country Social Cost of Carbon (CSCC) | `raw_scc_SSP2_rcp60_constant_bootstrap_climensemble_hmqrs.csv`   | Obtained from Anthony Harding|
-| Net Land-use Change Flux (Global Carbon Project) |  `National_LandUseChange_Carbon_Emissions_2024v1.0.xlsx` | [Global Carbon Project](https://globalcarbonbudgetdata.org/latest-data.html) | 
-| Natural Land Sink| `GCB2023_SLAND_country_mask.nc` | Obtained from Michael O'Sullivan  |
-| Fossil and Industry CO2 emissions | `National_Fossil_Carbon_Emissions_2024v1.0.xlsx`| [Global Carbon Project](https://globalcarbonbudgetdata.org/latest-data.html) |
-| GDP Deflator Values | `Worldbank_Deflator.csv` | [World Bank WDI](https://databank.worldbank.org/source/world-development-indicators/Series/NY.GDP.DEFL.ZS)
+| Country Social Cost of Carbon (CSCC) | `raw_scc_SSP2_rcp60_constant_bootstrap_climensemble_hmqrs.csv` | Provided by Anthony Harding |
+| Net Land-use Change Flux | `National_LandUseChange_Carbon_Emissions_2024v1.0.xlsx` | [Global Carbon Project](https://globalcarbonbudgetdata.org/latest-data.html) |
+| Natural Land Sink | `GCB2023_SLAND_country_mask.nc` | Provided by Michael O'Sullivan |
+| Fossil and Industry CO₂ Emissions | `National_Fossil_Carbon_Emissions_2024v1.0.xlsx` | [Global Carbon Project](https://globalcarbonbudgetdata.org/latest-data.html) |
+| GDP Deflator Values | `Worldbank_Deflator.csv` | [World Bank WDI](https://databank.worldbank.org/source/world-development-indicators/Series/NY.GDP.DEFL.ZS) |
 
+---
 
-## Replication instructions
+## Repository Structure
 
+```
+├── code/             
+├── data/                 
+│   ├── raw/
+│   ├── interim/
+│   └── processed/
+├── img/    
+└── README.md
+```
+
+---
 
 ## License
 
