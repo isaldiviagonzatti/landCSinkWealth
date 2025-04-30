@@ -60,23 +60,24 @@ All data used in this analysis are stored in the `data/raw/` directory.
 | GDP Deflator Values | `Worldbank_Deflator.csv` | [World Bank WDI](https://databank.worldbank.org/source/world-development-indicators/Series/NY.GDP.DEFL.ZS) |
 
 
-This project requires a large raw input dataset that is not tracked in GitHub due to its size.
+The dataset `raw_scc_SSP2_rcp60_constant_bootstrap_climensemble_hmqrs.csv` (~2.6 GB) is required but excluded from version control due to its size.
 
-To download it, run:
+You can either:
+- Run the script below to automatically download the file:
 
 ```bash
 python code/download_data.py
 ```
 
-Or manually download it from this Dropbox link:
-[Download CSV from Dropbox](https://www.dropbox.com/scl/fi/qlxnntf3kelfeocmt0te2/raw_scc_SSP2_rcp60_constant_bootstrap_climensemble_hmqrs.csv?rlkey=53y8xoysiksq35xlzocrlepvr&st=h4ss2dd7&dl=1)
+- Or manually download it via [this Dropbox link](https://www.dropbox.com/scl/fi/qlxnntf3kelfeocmt0te2/raw_scc_SSP2_rcp60_constant_bootstrap_climensemble_hmqrs.csv?rlkey=53y8xoysiksq35xlzocrlepvr&st=h4ss2dd7&dl=1) and place it in ```data/raw/```
 
-The file will be saved in data/raw/.
 
 ## Repository Structure
 
 ```
 ├── code/             
+│   └── download_data.py             
+│   └── main.ipynb         
 ├── data/                 
 │   ├── raw/
 │   ├── interim/
