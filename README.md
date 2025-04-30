@@ -27,11 +27,9 @@ This repository contains the data and code for the paper:
 - ⁷ Department of Economics, Kiel University, Germany  
 </details>
 
----
 
 ## Abstract
 
----
 
 ## Requirements
 
@@ -48,7 +46,6 @@ scipy
 
 ```
 
----
 
 ## Data
 
@@ -62,7 +59,19 @@ All data used in this analysis are stored in the `data/raw/` directory.
 | Fossil and Industry CO₂ Emissions | `National_Fossil_Carbon_Emissions_2024v1.0.xlsx` | [Global Carbon Project](https://globalcarbonbudgetdata.org/latest-data.html) |
 | GDP Deflator Values | `Worldbank_Deflator.csv` | [World Bank WDI](https://databank.worldbank.org/source/world-development-indicators/Series/NY.GDP.DEFL.ZS) |
 
----
+
+This project requires a large raw input dataset that is not tracked in GitHub due to its size.
+
+To download it, run:
+
+```bash
+python code/download_data.py
+```
+
+Or manually download it from this Dropbox link:
+[Download CSV from Dropbox](https://www.dropbox.com/scl/fi/qlxnntf3kelfeocmt0te2/raw_scc_SSP2_rcp60_constant_bootstrap_climensemble_hmqrs.csv?rlkey=53y8xoysiksq35xlzocrlepvr&st=h4ss2dd7&dl=1)
+
+The file will be saved in data/raw/.
 
 ## Repository Structure
 
@@ -76,7 +85,6 @@ All data used in this analysis are stored in the `data/raw/` directory.
 └── README.md
 ```
 
----
 
 ## License
 
