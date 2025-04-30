@@ -69,7 +69,7 @@ You can either:
 python code/download_data.py
 ```
 
-- Or manually download it via [this Dropbox link](https://www.dropbox.com/scl/fi/qlxnntf3kelfeocmt0te2/raw_scc_SSP2_rcp60_constant_bootstrap_climensemble_hmqrs.csv?rlkey=53y8xoysiksq35xlzocrlepvr&st=h4ss2dd7&dl=1) and place it in ```data/raw/```
+- Or manually download it via [this Dropbox link](https://www.dropbox.com/scl/fi/qlxnntf3kelfeocmt0te2/raw_scc_SSP2_rcp60_constant_bootstrap_climensemble_hmqrs.csv?rlkey=53y8xoysiksq35xlzocrlepvr&st=h4ss2dd7&dl=1) and place it in `data/raw/`
 
 
 ## Repository Structure
@@ -85,6 +85,34 @@ python code/download_data.py
 ├── img/    
 └── README.md
 ```
+## Processed Data Naming Convention
+
+Files in the `data/processed/` directory follow a consistent naming convention to reflect the **type of variable**, **geographic aggregation**, and **calculation method**. Below is a breakdown of how to interpret the filenames:
+
+### Format:  
+`[Variable]_[Region/Scope]_[Method].csv`
+
+### Components:
+
+- **[Variable]**  
+  - `CSCC`: Country Social Cost of Carbon  
+  - `EFOS`: Fossil and industrial CO₂ emissions  
+  - `ELUC`: CO₂ emissions from land-use change  
+  - `SLAND`: Natural land carbon sink
+    - `tf`: Total forest — calculated using all forested land area based on forest cover mask
+    - `mf`: Managed forest — calculated using only forest areas classified as "managed"
+  - `Fab`, `Fabc`, `Fbc`: Aggregate carbon fluxes  
+  - `Wdom`, `Wglob`, `Win`, `Wout`, `Wnet`: Wealth flows (domestic, global, inbound, outbound, net)
+
+- **[Region/Scope]**  
+  - `all`: Individual data entries as provided
+  - `sovereign`: Aggregated to sovereign country level (e.g., merging overseas territories) 
+  
+
+- **[Method]**  
+  - `stats`: Summary statistics (mean, median, percentiles, etc.)
+  - `boot_stats`: Bootstrapped statistics used for uncertainty analysis
+  - `FINAL`: Final merged outputs for replication or figure generation
 
 
 ## License
