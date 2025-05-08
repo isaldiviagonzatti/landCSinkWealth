@@ -43,6 +43,7 @@ xarray
 matplotlib
 geopandas
 scipy
+pysankey
 
 ```
 
@@ -94,7 +95,7 @@ Files in the `data/processed/` directory follow a consistent naming convention t
 
 ### Components:
 
-- **[Variable]**  
+- **Variable**  
   - `CSCC`: Country Social Cost of Carbon  
   - `EFOS`: Fossil and industrial CO₂ emissions  
   - `ELUC`: CO₂ emissions from land-use change  
@@ -104,12 +105,12 @@ Files in the `data/processed/` directory follow a consistent naming convention t
   - `Fab`, `Fabc`, `Fbc`: Aggregate carbon fluxes  
   - `Wdom`, `Wglob`, `Win`, `Wout`, `Wnet`: Wealth flows (domestic, global, inbound, outbound, net)
 
-- **[Region/Scope]**  
+- **Region/Scope**  
   - `all`: Individual data entries as provided
   - `sovereign`: Aggregated to sovereign country level (e.g., merging overseas territories) 
   
 
-- **[Method]**  
+- **Method**  
   - `stats`: Summary statistics (mean, median, percentiles, etc.)
   - `boot_stats`: Bootstrapped statistics used for uncertainty analysis
   - `FINAL`: Final merged outputs for replication or figure generation
