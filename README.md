@@ -106,14 +106,13 @@ Files in the `data/processed/` directory follow a consistent naming convention t
   - `Wdom`, `Wglob`, `Win`, `Wout`, `Wnet`: Wealth flows (domestic, global, inbound, outbound, net)
 
 - **Region/Scope**  
-  - `all`: Individual data entries as provided
   - `sovereign`: Aggregated to sovereign country level (e.g., merging overseas territories) 
   
 
 - **Method**  
   - `stats`: Summary statistics (mean, median, percentiles, etc.)
   - `boot_stats`: Bootstrapped statistics used for uncertainty analysis
-  - `FINAL`: Final merged outputs for replication or figure generation
+  - `final`: Final merged outputs for replication or figure generation
 
 
 ## License
