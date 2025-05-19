@@ -102,9 +102,9 @@ Files in the `data/processed/` directory follow a consistent naming convention t
 
 - **Variable**  
   - `CSCC`: Country Social Cost of Carbon  
-  - `EFOS`: Fossil and industrial CO₂ emissions  
-  - `ELUC`: CO₂ emissions from land-use change  
-  - `SLAND`: Natural land carbon sink
+  - `EFOS` (also referred to as `c`): Fossil and industrial CO₂ emissions  
+  - `ELUC` (also referred to as `b`): CO₂ emissions from land-use change  
+  - `SLAND` (also referred to as `a`): Natural land carbon sink 
     - `tf`: Total forest — calculated using all forested land area based on forest cover mask
     - `mf`: Managed forest — calculated using only forest areas classified as "managed"
   - `Fab`, `Fabc`, `Fbc`: Aggregate carbon fluxes  
@@ -112,7 +112,9 @@ Files in the `data/processed/` directory follow a consistent naming convention t
   - `final`: Final merged outputs for replication or figure generation
 
 - **Region/Scope**  
-  - `sovereign`: Aggregated to sovereign country level (e.g., merging overseas territories) 
+  - If no region/scope is specified, the data is reported at the country level as defined in the original raw data sources. 
+  - `sovereign`: Aggregated to sovereign country level (e.g., merging overseas territories)
+    
   
 
 - **Method**  
