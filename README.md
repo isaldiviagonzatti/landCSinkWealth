@@ -59,6 +59,7 @@ All data used in this analysis are stored in the `data/raw/` directory.
 | Natural Land Sink | `GCB2023_SLAND_country_mask.nc` | Provided by Michael O'Sullivan |
 | Fossil and Industry CO₂ Emissions | `National_Fossil_Carbon_Emissions_2024v1.0.xlsx` | [Global Carbon Project](https://globalcarbonbudgetdata.org/latest-data.html) |
 | GDP Deflator Values | `Worldbank_Deflator.csv` | [World Bank WDI](https://databank.worldbank.org/source/world-development-indicators/Series/NY.GDP.DEFL.ZS) |
+| Population Data | `Worldbank_Population.xlsx` | [World Bank WDI](https://databank.worldbank.org/source/world-development-indicators/Series/SP.POP.TOTL) |
 
 
 The dataset `raw_scc_SSP2_rcp60_constant_bootstrap_climensemble_hmqrs.csv` (~2.6 GB) is required but excluded from version control due to its size.
@@ -104,6 +105,7 @@ Files in the `data/processed/` directory follow a consistent naming convention t
     - `mf`: Managed forest — calculated using only forest areas classified as "managed"
   - `Fab`, `Fabc`, `Fbc`: Aggregate carbon fluxes  
   - `Wdom`, `Wglob`, `Win`, `Wout`, `Wnet`: Wealth flows (domestic, global, inbound, outbound, net)
+  - `final`: Final merged outputs for replication or figure generation
 
 - **Region/Scope**  
   - `sovereign`: Aggregated to sovereign country level (e.g., merging overseas territories) 
@@ -112,9 +114,7 @@ Files in the `data/processed/` directory follow a consistent naming convention t
 - **Method**  
   - `stats`: Summary statistics (mean, median, percentiles, etc.)
   - `boot_stats`: Bootstrapped statistics used for uncertainty analysis
-  - `final`: Final merged outputs for replication or figure generation
-
-
+  
 ## License
 
 <!-- This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details. -->
