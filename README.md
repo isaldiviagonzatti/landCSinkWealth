@@ -38,13 +38,16 @@ This project uses **Python 3.12.7** and requires the following Python packages:
 
 ```
 numpy
+openpyxl
 pandas
+netcdf4
 xarray
 matplotlib
 geopandas
 scipy
 seaborn
 pysankey
+Jinja2
 
 ```
 
