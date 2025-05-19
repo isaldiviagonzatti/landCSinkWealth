@@ -43,6 +43,7 @@ xarray
 matplotlib
 geopandas
 scipy
+seaborn
 pysankey
 
 ```
