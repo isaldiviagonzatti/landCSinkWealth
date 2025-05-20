@@ -169,9 +169,3 @@ data/check/
 
 data/raw/raw_scc_SSP2_rcp60_constant_bootstrap_climensemble_hmqrs.csv
 data/raw/raw_scc_SSP2_rcp60_constant_bootstrap_climensemble_hmqrs.Rdata
-data/raw/gadm_410.gpkg
-data/raw/world_countries.shp
-data/raw/world_countries.dbf
-data/raw/world_countries.shx
-data/raw/world_countries.prj
-data/raw/world_countries.cpg
